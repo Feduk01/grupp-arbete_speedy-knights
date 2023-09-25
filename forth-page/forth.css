@@ -20,7 +20,7 @@ header {
     /* height: 6.75vw; */
     /* border: 1px solid black; */
     display: flex;
-    background-color: var(--primary);
+    background-color: #393E41;
     padding: 1.5em 0 2.5em 0;
 }
 
@@ -118,23 +118,36 @@ footer {
 	display:flex;
 	flex-direction: row;
 	margin: 1em;
-	
+	justify-content: center;
 
+
+
+}
+
+.anton , .dorine , .fedor , .josefin{
+	display:flex;
+	flex-direction: column;
+	padding: 1em;
+	padding-top: 2em;;
 
 }
 
 .anton{
+	
 
 }
 
 .dorine{
+	
 
 }
 
 .fedor{
+	
 
 }
 
 .josefin{
+	
 
 }
