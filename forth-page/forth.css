@@ -121,43 +121,31 @@ footer {
 	justify-content: center;
 
 
-
 }
 
 .anton , .dorine , .fedor , .josefin{
 	display:flex;
 	flex-direction: column;
-	padding: 1em;
+	padding: 2em;
 	padding-top: 2em;
-	padding-bottom: 6em;
-	border: 3px solid white;
-	margin: 1.5em;
+	padding-bottom: 14em;
 
+	margin: 1em;
+	background-color: rgba(255, 255, 255, 0.1
+	);
+	border-radius: 14px;
+	
 
 }
 p{
-	font-size: 2em;
+	font-size: 1.5em;
 	text-align: center;
 	padding-top: 1em;
 	font-style: helvetica;
 }
 
-.anton{
-	
-
-}
-
-.dorine{
-	
-
-}
-
-.fedor{
-	
-
-}
-
-.josefin{
-	
-
+.antonbild , .dorinebild , .fedorbild , .josefinbild{
+	width: 13em;
+	height: 13em;
+	border-radius: 100px;
 }
