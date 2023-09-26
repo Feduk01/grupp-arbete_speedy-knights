@@ -15,15 +15,11 @@ body {
     /* height: 100vh; */
 }
 
-
-
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight:200;
     margin-bottom: 40px;
 }
-
-
 
 .grid {
     display: grid;
@@ -44,7 +40,7 @@ img.logo {
 
 .site-nav ul {
     display: flex;
-    grid-column: 5/9;
+    grid-column: 4/9;
     justify-content: flex-end;
     align-items: center;
 }
@@ -55,7 +51,7 @@ text-decoration: none;
     color: var(--secondary)}
 
 .site-nav  li{
-    margin-left: 2em;
+    margin-left: 1.5em;
 
 }
 
@@ -116,18 +112,6 @@ footer {
     color: var(--secondary);
 }
 
-/* .footer-container {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    margin: 0 10em 0 10em;
-} */
-
- 
-
-/* .footer-left a:hover {
-    border-bottom: 4px solid var(--primary);
-    border-radius: 1px;
-} */
 
 
 .image-footer img {
@@ -149,6 +133,13 @@ footer {
     align-items: center;
 }
 
+
+@media screen and (max-width: 960px){
+    .welcome-img > img {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 620px) {
     .welcome-text {
         grid-column: 2/8;
@@ -157,6 +148,9 @@ footer {
     }
     h1 {
         font-size: 1.5em;
+    }
+    .welcome-img > img {
+        width: 80%;
     }
 
     .header-right {
@@ -173,5 +167,9 @@ footer {
 .welcome-img {
     grid-column: 2/8;
 }
+.site-nav ul {
+    display: none;
+
+
 
 }
