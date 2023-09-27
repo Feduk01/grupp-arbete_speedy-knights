@@ -65,8 +65,75 @@ header {
     /* border: 1px solid black; */
 }
 
+.body{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.container{
+    display: inline-grid;
+    gap: 1em;
+    border:1px dotted black;
+    grid-template-columns: repeat(2, auto);
+    /*grid-auto-flow: 1em;*/
+    margin-inline: 15em;
+    margin:auto;
+
+    }
+
+.circle1{
+    width: 5em;
+    height: 5em;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    justify-self: end;
+}
+.circle2{
+    width: 5em;
+    height: 5em;
+    background-color: whitesmoke;
+    border-radius: 100%;
+   
+}
+
+.circle3{
+    width: 5em;
+    height: 5em;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    justify-self: end;
+}
+
+.circle4{
+    width: 5em;
+    height: 5em;
+    background-color: whitesmoke;
+    border-radius: 100%;
+   
+}
 
 
+.earphone{
+    display: inline-block;
+    
+}
+.earphone img {
+    max-width: 30%;
+    height: 1583.57px;
+    top: -430px;
+    left: -21.17px;
+    border-radius: 10px;
+    /*Rotation:-27.77°;
+    /*angle: -27.77 deg*/
+
+}
+.earphone img:hover{
+    transform:scale(1.1)
+}
 
 footer {
     background-color: var(--third);
@@ -111,3 +178,4 @@ footer {
     grid-column: 1;
     grid-row: 2;
 }
+
