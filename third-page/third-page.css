@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: var(--primary);
+    background-color: var(--fourth);
     /* height: 100vh; */
 }
 
@@ -121,7 +121,7 @@ text-decoration: none;
 }
 
 .menu-items li a:hover {
-    color: var(--primary);
+    color: var(--third);
     
 }
 
@@ -129,10 +129,7 @@ text-decoration: none;
     display: block;
 }
 
-
-
-
-
+/* HEADER SLUT */
 
 
 #welcome {
@@ -141,38 +138,26 @@ text-decoration: none;
 }
 
 .welcome-text {
-    grid-column: 2/5;
+    grid-column: 5/8;
     color: var(--secondary);
 }
 
 .welcome-img {
-    grid-column: 5/8;
+    grid-column: 2/5;
     text-align: center;
+    
 }
 
 .welcome-img > img {
-    width: 80%;
+    max-width: 80%;
+    border-radius: 50%;
 }
 
-#welcome button {
-    margin: 0 auto;
+p {
+    line-height: 2;
+
 }
 
-.button {
-    background: none;
-    border: 2px solid var(--secondary);
-    color: var(--secondary);
-    padding: 6px 12px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
-    display: inline-block;
-    text-decoration: none;
-}
-.button:hover {
-    color: var(--primary);
-    background: var(--secondary);
-}
 
 /* Test */
 
@@ -185,6 +170,10 @@ footer {
     padding: 30px;
     color: var(--secondary);
     margin-top: 15px;
+}
+
+.footer-info{
+    grid-column: 4/6;
 }
 
 
