@@ -117,11 +117,11 @@ header {
 }
 
 
-.earphone{
+.image{
     display: inline-block;
     
 }
-.earphone img {
+.image img {
     max-width: 30%;
     height: 1583.57px;
     top: -430px;
@@ -131,7 +131,7 @@ header {
     /*angle: -27.77 deg*/
 
 }
-.earphone img:hover{
+.image img:hover{
     transform:scale(1.1)
 }
 
