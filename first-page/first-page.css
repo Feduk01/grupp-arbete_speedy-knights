@@ -56,10 +56,10 @@ text-decoration: none;
 
 }
 
-.site-nav a:hover {
+a:hover:not(.no-hover-effect) {
     border-bottom: 4px solid var(--third);
     border-radius: 1px;
-} 
+}
 
 .bar {
     background-color: var(--secondary);

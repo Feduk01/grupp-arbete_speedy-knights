@@ -39,6 +39,11 @@ img.logo {
     max-width: 15em;
 }
 
+a:hover:not(.no-hover-effect) {
+    border-bottom: 4px solid var(--third);
+    border-radius: 1px;
+}
+
 .site-nav ul {
     display: flex;
     grid-column: 4/9;
@@ -56,10 +61,9 @@ text-decoration: none;
 
 }
 
-.site-nav a:hover {
-    border-bottom: 4px solid var(--third);
-    border-radius: 1px;
-} 
+
+
+
 
 .bar {
     background-color: var(--secondary);
