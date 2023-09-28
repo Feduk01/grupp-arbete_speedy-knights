@@ -114,13 +114,14 @@ footer {
 	color: #f9f6ee;
 
 }
-
+*
 .oss-container{
 	display:flex;
 	flex-direction: row;
 	margin: 1em;
 	justify-content: center;
 	max-width: 100%;
+	padding: 0 10em;
 	
 
 }
@@ -130,22 +131,17 @@ footer {
 	flex-direction: column;
 	padding: 2em;
 	padding-top: 2em;
-	padding-bottom: 14em;
-
 	margin: 1em;
 	background-color: rgba(255, 255, 255, 0.1
 	);
 	border-radius: 14px;
-	/* background-image: url(https://cdn.discordapp.com/attachments/1154417843580964897/1156516406477738035/Frontpage_img_4.png?ex=65154156&is=6513efd6&hm=0710d77974a3cd9070327aa0be075d220dda7b9e5db1de7b90d056c3a40bab19&);
-	background-size: 60%;
-	background-position: center;
-	opacity: 0.1; */
+	width: 25%;
 	
 
 	
 
 }
-p{
+h1{
 	font-size: 1.5em;
 	text-align: center;
 	padding-top: 1em;
@@ -153,10 +149,8 @@ p{
 }
 
 .antonbild , .dorinebild , .fedorbild , .josefinbild{
-	width: 13em;
-	height: 13em;
 	border-radius: 100px;	
-	max-width: 100%;
+	width: 100%;
 
 	
 	
