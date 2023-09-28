@@ -11,7 +11,6 @@
 }
 
 body {
-    background-color: var(--primary);
     display: flex;
     flex-direction: column;
 }
@@ -118,10 +117,10 @@ footer {
 .oss-container{
 	display:flex;
 	flex-direction: row;
-	margin: 1em;
-	justify-content: center;
+	/* margin: 1em; */
+	/* justify-content: center; */
 	max-width: 100%;
-	padding: 0 10em;
+	padding: 0 5em;
 	
 
 }
@@ -134,9 +133,9 @@ footer {
 	margin: 1em;
 	background-color: rgba(255, 255, 255, 0.1
 	);
+	
 	border-radius: 14px;
 	width: 25%;
-	
 
 	
 
@@ -155,4 +154,43 @@ h1{
 	
 	
 }
+
+@media screen and (max-width: 960px) {
+
+	.oss-container{
+		display:flex;
+		flex-direction: row;
+		margin: 1em;
+		justify-content: center;
+		max-width: 100%;
+		/* padding: 0 10em; */
+		flex-wrap: wrap;
+	
+}
+
+.anton , .dorine , .fedor , .josefin{
+	/* display:flex; */
+	/* flex-direction: column; */
+	/* padding: 2em; */
+	/* padding-top: 2em; */
+	/* margin: 1em; */
+	/* background-color: rgba(255, 255, 255, 0.1
+	); */
+	
+	/* border-radius: 14px; */
+	width: 40%;
+}
+}
+
+ @media screen and (max-width: 620px) {
+	.oss-container {
+	padding: 0 1em;
+}
+
+	.anton, .dorine, .fedor, .josefin{
+		width: 80%;
+	}
+
+	
+ }
 
