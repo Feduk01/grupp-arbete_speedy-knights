@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: var(--fourth);
+    background-color: var(--primary);
     /* height: 100vh; */
 }
 
@@ -39,11 +39,6 @@ img.logo {
     max-width: 15em;
 }
 
-a:hover:not(.no-hover-effect) {
-    border-bottom: 4px solid var(--third);
-    border-radius: 1px;
-}
-
 .site-nav ul {
     display: flex;
     grid-column: 4/9;
@@ -61,9 +56,10 @@ text-decoration: none;
 
 }
 
-
-
-
+a:hover:not(.no-hover-effect) {
+    border-bottom: 4px solid var(--third);
+    border-radius: 1px;
+}
 
 .bar {
     background-color: var(--secondary);
@@ -125,7 +121,7 @@ text-decoration: none;
 }
 
 .menu-items li a:hover {
-    color: var(--third);
+    color: var(--primary);
     
 }
 
@@ -133,40 +129,41 @@ text-decoration: none;
     display: block;
 }
 
-/* HEADER SLUT */
-
-
-#welcome {
-    align-items: center;
-    height: 72vh;
+.grid-item > img {
+    width: 100%;
 }
 
-.welcome-text {
-    grid-column: 5/8;
-    color: var(--secondary);
+.grid-item {
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 30px;
+    padding: 10px 30px 10px 30px;
 }
 
-.welcome-img {
+.item1 {
     grid-column: 2/5;
-    text-align: center;
-    
+    grid-row: 1 / span 2;
+    background-color: var(--primary);
 }
-
-.welcome-img > img {
-    max-width: 80%;
-    border-radius: 50%;
+.item2 {
+    grid-column: 5/6;
+}
+.item3 {
+    grid-column: 6/7;
+}
+.item4 {
+    grid-column: 5/6;
+    grid-row: 2;
+}
+.item5 {
+    grid-column: 6/7;
+    grid-row: 2;
 }
 
 p {
-    line-height: 2;
-
+    text-transform: capitalize;
 }
-
-
-/* Test */
-
-
-
 
 footer {
     background-color: var(--third);
@@ -174,10 +171,6 @@ footer {
     padding: 30px;
     color: var(--secondary);
     margin-top: 15px;
-}
-
-.footer-info{
-    grid-column: 4/6;
 }
 
 
@@ -246,7 +239,7 @@ footer {
 
 @media screen and (max-width: 960px){
     .welcome-img > img {
-        width: 150%;
+        width: 100%;
     }
 
     .site-nav ul {
@@ -259,3 +252,28 @@ footer {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 620px) {
+    .grid-item {
+        grid-column: 2/8;
+    }
+
+    .item4 {
+        grid-row: 4;
+    }
+
+    .item1 {
+        grid-row: 5;
+        background-color: rgb(42, 91, 74);
+        width: 100%;
+    }
+}
