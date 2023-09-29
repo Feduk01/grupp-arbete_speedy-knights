@@ -56,9 +56,13 @@ text-decoration: none;
 
 }
 
-a:hover:not(.no-hover-effect) {
+.no-hover-effect a:hover:not(.no-hover-effect) {
     border-bottom: 4px solid var(--third);
     border-radius: 1px;
+}
+.hover:hover{
+    border-bottom: 4px solid var(--third);
+    border-radius: 1px; 
 }
 
 .bar {
@@ -169,7 +173,7 @@ a:hover:not(.no-hover-effect) {
     display: inline-block;
     text-decoration: none;
 }
-.button:hover {
+ .button:hover {
     color: var(--primary);
     background: var(--secondary);
 }
@@ -228,20 +232,18 @@ footer {
         margin-left: 4em;
     }
 
+.grid{
+    gap: 0;
+}
+
     #welcome {
         text-align: center;
     }
 .welcome-img {
     grid-column: 2/8;
 }
-.site-nav ul {
-    display: none;
-}
 
-.hamburger-menu {
-    display: flex;
-    
-}
+
 
 
 
@@ -262,5 +264,15 @@ footer {
     .welcome-img > img {
         width: 100%;
     }
+
+    .site-nav ul {
+        display: none;
+    }
+    
+    .hamburger-menu {
+        display: flex;
+        
+    }
+    
 }
 

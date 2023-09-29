@@ -228,7 +228,9 @@ footer {
     grid-column: 2/8;
 }
 
-
+.grid{
+    gap: 0;
+}
 
 
 

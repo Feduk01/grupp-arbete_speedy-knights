@@ -250,6 +250,10 @@ h1{
 	padding: 0 1em;
 }
 
+.grid{
+    gap: 0;
+}
+
 	.anton, .dorine, .fedor, .josefin{
 		width: 80%;
 	}
